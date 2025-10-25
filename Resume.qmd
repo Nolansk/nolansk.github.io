@@ -1,0 +1,45 @@
+
+---
+title: "Resume"
+---
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+
+
+:::
+
+
+<p>Homework 3: Due 3/06/2025</p>
+<ol type="1">
+<li><p>Define annual, perennial, biennial and monocarp plant growth
+lifecycles</p></li>
+<li><p>Please label and describe the function of each of the major
+structures of the flower below</p></li>
+</ol>
+<p><img src="/media/image.png"
+style="width:5.94792in;height:4.14583in" /></p>
+<ol start="3" type="1">
+<li><p>What does it mean for a flower to be complete? Incomplete?
+Perfect? Imperfect?</p></li>
+<li><p>Define Monoecious and Diecious</p></li>
+<li><p>What is the difference between pollination and
+fertilization?</p></li>
+<li><p>What are some of the pros and cons of cross pollination and
+self-pollination?</p></li>
+<li><p>What are some of the mechanisms which promote cross
+fertilization?</p></li>
+<li><p>Suppose you found a plant with the following pedigree: A/B//C/D,
+please diagram the crossing plan that led to this plant.</p></li>
+<li><p>What are 3 advantages and 3 disadvantages of clonally propagated
+plants?</p></li>
+<li><p>What are 3 potential sources of genetic material for plant
+breeders?</p></li>
+<li><p>What does it mean for plants to be in the primary, secondary, or
+tertiary gene pools?</p></li>
+<li><p>What are 2 of the ways you may measure yield of a plant?</p></li>
+<li><p>What are some of the challenges to breeding for quality?</p></li>
+<li><p>What are 3 mechanisms of resistance/tolerance in plants?</p></li>
+</ol>
