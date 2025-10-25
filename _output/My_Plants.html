@@ -24,12 +24,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./CV.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-0cfd17fef50ab3ba9cec84f27c3c9942.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-08a87fbf78583303648e0f5aeb7046e6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -137,6 +137,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Resume</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./CV.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">CV</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -189,66 +195,42 @@ ul.task-list li input[type="checkbox"] {
 <div class="columns">
 <div class="column" style="width:100%;height:32.5%;border-radius:1em;margin:1%;padding:1.5%;background-color:#f5f5f5">
 <p>Here are some of the plants I grow!</p>
-</div>
-</div>
-<hr>
-<div style="display:flex; justify-content:center; gap:150px;">
-<p><img src="./images/plants-1.jpeg" width="400"> <img src="./images/plants-2.jpeg" width="400"></p>
-</div>
-<figure class="figure">
-<img src="./images/plants-1.jpeg" alt="Photo" width="300" style="border-radius:10px;" class="figure-img">
+</div><div class="center-left-box">
+<div style="display:flex; justify-content:left; gap:15px;">
+<img src="./images/plants-1.jpeg" width="540">
 <figcaption>
 Main Shelf
-</figcaption>
-</figure>
-<figure class="figure">
-<img src="./images/plants-2.jpeg" alt="Photo" width="300" style="border-radius:10px;" class="figure-img">
+</figcaption></div>
+<section id="section" class="level1">
+<h1></h1>
+<div class="center-left-box">
+<div style="display:flex; justify-content:center; gap:15px;">
+<img src="./images/plants-2.jpeg" width="500">
 <figcaption>
 Succulents
-</figcaption>
-</figure>
-<figure class="figure">
-<img src="./images/plants-3.jpeg" alt="Photo" width="300" style="border-radius:10px;" class="figure-img">
+</figcaption></div>
+<section id="section-1" class="level1">
+<h1></h1>
+<div class="center-left-box">
+<div style="display:flex; justify-content:bottom; gap:15px;">
+<img src="./images/plants-3.jpeg" width="500">
 <figcaption>
-Cebu Blue Pothos on a moss pole
-</figcaption>
-</figure>
+Cebu Blue pothos on a moss pole
+</figcaption></div>
 
 
 </div>
+</section></div>
+</section>
+</div>
+</div>
 
-</main> <!-- /main -->
-// scripts/folder-sync.js
-document.addEventListener("DOMContentLoaded", function() {
-  console.log("folder-sync script loaded");
-  const toggles = document.querySelectorAll(".sidebar-item-toggle, .sidebar-section-toggle, .sidebar *[class*='toggle']");
+</div>
+</main></div>
 
-  toggles.forEach(toggle =&gt; {
-    const icon = toggle.querySelector(".bi-folder, .bi-folder2-open");
 
-    // Make icon mirror the Quarto toggle state after Quarto updates it
-    toggle.addEventListener("click", () =&gt; {
-      setTimeout(() =&gt; {
-        // adjust selector for the parent that gets the "open" class in your site
-        const parent = toggle.closest("li, .sidebar-item, .sidebar-section") || toggle.parentElement;
-        const isOpen = parent &amp;&amp; parent.classList.contains("show");
 
-        if (icon) {
-          if (isOpen) icon.classList.replace("bi-folder", "bi-folder2-open");
-          else icon.classList.replace("bi-folder2-open", "bi-folder");
-        }
-      }, 80);
-    });
-
-    // Optional: clicking the icon triggers the same toggle (keeps UX consistent)
-    if (icon) {
-      icon.addEventListener("click", (e) =&gt; {
-        e.preventDefault();
-        toggle.click();
-      });
-    }
-  });
-});
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -649,11 +631,20 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   });
   </script>
-</div> <!-- /content -->
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./CV.html" class="pagination-link" aria-label="CV">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">CV</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+ <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><a href="https://www.maryam-nouriaiin.com/"><i class="bi bi-link"></i> Website</a><br> <a href="https://github.com/Maryam-NouriAiin/website_template" target="_blank"> Template by Maryam Nouri-Aiin </a></p>
+<p><a href="https://www.maryam-nouriaiin.com/" target="_blank"> <i class="bi bi-link"></i> Website </a><br> <a href="https://github.com/Maryam-NouriAiin/website_template" target="_blank"> Template by Maryam Nouri-Aiin </a></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
@@ -663,6 +654,8 @@ document.addEventListener("DOMContentLoaded", function() {
     </div>
   </div>
 </footer>
+<script src="js/folder-sync.js"></script>
+<script src="js/sidebar-state.js"></script>
 
 
 

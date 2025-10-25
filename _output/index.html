@@ -24,12 +24,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./about_me.html" rel="next">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-0cfd17fef50ab3ba9cec84f27c3c9942.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-08a87fbf78583303648e0f5aeb7046e6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -68,6 +68,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<!-- Load Bootstrap Icons -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 
 
@@ -136,6 +137,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Resume</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./CV.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">CV</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -190,7 +197,7 @@ ul.task-list li input[type="checkbox"] {
 <div style="display:flex; justify-content:left; gap:15px;">
 <p><img src="./images/profile-me-1.png" width="250"></p>
 </div>
-<p>I’m a recent UVM graduate getting started on a career in Horticulture, Plant Biology, and IPM</p>
+<p>Hi! I’m a recent UVM graduate getting started on a career in Horticulture, Plant Biology, and IPM. I put together this site to share info about myself, projects I’ve done, and what I’m up to!</p>
 </div><div class="callout callout-style-default callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -212,44 +219,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 </main> <!-- /main -->
-// folder-sync.js
-document.addEventListener("DOMContentLoaded", function() {
-  // Select all sidebar sections that can toggle
-  const toggles = document.querySelectorAll(".sidebar-item-toggle, .sidebar-section-toggle, .sidebar *[class*='toggle']");
-
-  toggles.forEach(toggle =&gt; {
-    // Find the folder icon inside this toggle, if it exists
-    const icon = toggle.querySelector(".bi-folder, .bi-folder2-open");
-
-    // Function to update icon based on section state
-    const updateIcon = () =&gt; {
-      const parent = toggle.closest("li, .sidebar-item, .sidebar-section") || toggle.parentElement;
-      const isOpen = parent &amp;&amp; parent.classList.contains("show");
-
-      if (icon) {
-        if (isOpen) icon.classList.replace("bi-folder", "bi-folder2-open");
-        else icon.classList.replace("bi-folder2-open", "bi-folder");
-      }
-    };
-
-    // 1️⃣ Click on toggle (chevron or text) updates the icon
-    toggle.addEventListener("click", () =&gt; {
-      setTimeout(updateIcon, 50); // short delay to let Quarto toggle class
-    });
-
-    // 2️⃣ Click on the folder icon also triggers toggle
-    if (icon) {
-      icon.addEventListener("click", (e) =&gt; {
-        e.preventDefault();    // prevent default action
-        toggle.click();        // simulate toggle click
-      });
-    }
-
-    // 3️⃣ Initial state update
-    updateIcon();
-  });
-});
-
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -650,11 +619,20 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./about_me.html" class="pagination-link" aria-label="About Me">
+        <span class="nav-page-text">About Me</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><a href="https://www.maryam-nouriaiin.com/"><i class="bi bi-link"></i> Website</a><br> <a href="https://github.com/Maryam-NouriAiin/website_template" target="_blank"> Template by Maryam Nouri-Aiin </a></p>
+<p><a href="https://www.maryam-nouriaiin.com/" target="_blank"> <i class="bi bi-link"></i> Website </a><br> <a href="https://github.com/Maryam-NouriAiin/website_template" target="_blank"> Template by Maryam Nouri-Aiin </a></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
@@ -664,6 +642,8 @@ document.addEventListener("DOMContentLoaded", function() {
     </div>
   </div>
 </footer>
+<script src="js/folder-sync.js"></script>
+<script src="js/sidebar-state.js"></script>
 
 
 

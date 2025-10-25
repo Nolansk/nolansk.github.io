@@ -24,12 +24,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./Resume.html" rel="next">
+<link href="./index.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -40,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-ae6932a53cb3b14ee237ea89e9d9ac9f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-058651bde15678c25452294b5c8a532e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -84,7 +85,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./about_me.html">My Info</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./about_me.html">My Info</a></li><li class="breadcrumb-item"><a href="./about_me.html">About Me</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -117,7 +118,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./about_me.html" class="sidebar-item-text sidebar-link active"><i class="bi bi-folder" role="img">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true"><i class="bi bi-folder" role="img">
 </i> 
  <span class="menu-text">My Info</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
@@ -137,11 +138,17 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Resume</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./CV.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">CV</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./My_Plants.html" class="sidebar-item-text sidebar-link"><i class="bi bi-folder" role="img">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false"><i class="bi bi-folder" role="img">
 </i> 
  <span class="menu-text">Horticulture</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
@@ -166,7 +173,7 @@ ul.task-list li input[type="checkbox"] {
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">About Me</h1></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./about_me.html">My Info</a></li><li class="breadcrumb-item"><a href="./about_me.html">About Me</a></li></ol></nav><h1 class="title display-7">About Me</h1></header>
 
 <header id="title-block-header">
 
@@ -189,37 +196,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 </main> <!-- /main -->
-// scripts/folder-sync.js
-document.addEventListener("DOMContentLoaded", function() {
-  console.log("folder-sync script loaded");
-  const toggles = document.querySelectorAll(".sidebar-item-toggle, .sidebar-section-toggle, .sidebar *[class*='toggle']");
-
-  toggles.forEach(toggle =&gt; {
-    const icon = toggle.querySelector(".bi-folder, .bi-folder2-open");
-
-    // Make icon mirror the Quarto toggle state after Quarto updates it
-    toggle.addEventListener("click", () =&gt; {
-      setTimeout(() =&gt; {
-        // adjust selector for the parent that gets the "open" class in your site
-        const parent = toggle.closest("li, .sidebar-item, .sidebar-section") || toggle.parentElement;
-        const isOpen = parent &amp;&amp; parent.classList.contains("show");
-
-        if (icon) {
-          if (isOpen) icon.classList.replace("bi-folder", "bi-folder2-open");
-          else icon.classList.replace("bi-folder2-open", "bi-folder");
-        }
-      }, 80);
-    });
-
-    // Optional: clicking the icon triggers the same toggle (keeps UX consistent)
-    if (icon) {
-      icon.addEventListener("click", (e) =&gt; {
-        e.preventDefault();
-        toggle.click();
-      });
-    }
-  });
-});
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -620,11 +596,23 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./index.html" class="pagination-link" aria-label="Home">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Home</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./Resume.html" class="pagination-link" aria-label="Resume">
+        <span class="nav-page-text">Resume</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><a href="https://www.maryam-nouriaiin.com/"><i class="bi bi-link"></i> Website</a><br> <a href="https://github.com/Maryam-NouriAiin/website_template" target="_blank"> Template by Maryam Nouri-Aiin </a></p>
+<p><a href="https://www.maryam-nouriaiin.com/" target="_blank"> <i class="bi bi-link"></i> Website </a><br> <a href="https://github.com/Maryam-NouriAiin/website_template" target="_blank"> Template by Maryam Nouri-Aiin </a></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
@@ -634,6 +622,8 @@ document.addEventListener("DOMContentLoaded", function() {
     </div>
   </div>
 </footer>
+<script src="js/folder-sync.js"></script>
+<script src="js/sidebar-state.js"></script>
 
 
 

@@ -18,22 +18,26 @@
 footer {
   margin-top: auto;
 }
+/* Flexbox columns for main content */
+.columns {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.column {
+  flex: 1;
+}
+
 
 /* =========================
    Navigation & Sidebar Styling
    ========================= */
 
-/* Navbar borders */
-.navbar {
-  border: 1px solid #ddd;
-  border-radius: 0px;
-  padding: 10px;
-}
 
 /* Sidebar borders and spacing */
 .sidebar {
   border-right: 1px solid #ccc;
-  padding-right: 1em;
+  padding-right: 0em;
 }
 
 /* Folder icon font (Bootstrap Icons) */
@@ -55,12 +59,6 @@ footer {
   transform: rotate(90deg);
 }
 
-/* Optional: hover effect for sidebar items */
-.sidebar .sidebar-item:hover,
-.sidebar .sidebar-section-header:hover {
-  background-color: #f0f0f0;
-  cursor: pointer;
-}
 
 /* =========================
    Center-Left Box Styling
@@ -71,18 +69,18 @@ footer {
   align-items: flex-start;          /* top alignment */
   justify-content: flex-start;      /* left alignment */
   width: 100%;
-  height: 30%;
-  border-radius: 1em;
-  margin: 0;
-  padding: 1.5%;
-  gap: 1rem;                        /* space between image and text */
+  height: auto;
+  border-radius: 0.5em;
+  margin: 0.5%;
+  padding: 1%;
+  gap: 10px;                        /* space between image and text */
   background-color: #f5f5f5;
 }
 
 /* Text inside center-left box */
 .center-left-box p,
 .center-left-box span {
-  margin: 0;
+  margin: 5px;
   line-height: 1.4;
 }
 
@@ -90,4 +88,48 @@ footer {
 .center-left-box img {
   max-width: 250px;
   border-radius: 10px;
+}
+
+/* =========================
+   Active Sidebar Link Highlighting
+   ========================= */
+/* --- Persistent highlight for active sidebar links and sections --- */
+
+
+
+/* Highlight the currently active page */
+.sidebar-item.active > .sidebar-link,
+.sidebar-link.active {
+  background-color: #40be6a;  /* Flatly hover blue */
+  color: #fdfdfd;            /* Flatly primary text color */
+  font-weight: 600;
+  border-radius: 3px;
+}
+
+/* Full-width active highlight */
+.sidebar-item a.active {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px 12px;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #ffffff !important;
+  font-weight: 500;
+  
+  
+  
+}
+
+/* Optional: consistent hover color */
+.sidebar-link:hover {
+  background-color: #bbeac6 !important;
+  color: #000000 !important;
+  border-radius: 3px;
+}
+
+/* Optional: make the section title stand out slightly when active */
+.sidebar-section:has(.active) > .sidebar-item-container > .sidebar-link {
+  color: #ffffff;
+  font-weight: 600;
 }

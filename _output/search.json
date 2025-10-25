@@ -1,23 +1,23 @@
 [
   {
+    "objectID": "Resume.html",
+    "href": "Resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "format: html: theme: flatly css: styles.css\n:::\n\nHomework 3: Due 3/06/2025\n\n\n\n\nDefine annual, perennial, biennial and monocarp plant growth lifecycles\n\n\n\n\nPlease label and describe the function of each of the major structures of the flower below\n\n\n\n\n\n\n\n\n\nWhat does it mean for a flower to be complete? Incomplete? Perfect? Imperfect?\n\n\n\n\nDefine Monoecious and Diecious\n\n\n\n\nWhat is the difference between pollination and fertilization?\n\n\n\n\nWhat are some of the pros and cons of cross pollination and self-pollination?\n\n\n\n\nWhat are some of the mechanisms which promote cross fertilization?\n\n\n\n\nSuppose you found a plant with the following pedigree: A/B//C/D, please diagram the crossing plan that led to this plant.\n\n\n\n\nWhat are 3 advantages and 3 disadvantages of clonally propagated plants?\n\n\n\n\nWhat are 3 potential sources of genetic material for plant breeders?\n\n\n\n\nWhat does it mean for plants to be in the primary, secondary, or tertiary gene pools?\n\n\n\n\nWhat are 2 of the ways you may measure yield of a plant?\n\n\n\n\nWhat are some of the challenges to breeding for quality?\n\n\n\n\nWhat are 3 mechanisms of resistance/tolerance in plants?",
+    "crumbs": [
+      "My Info",
+      "Resume"
+    ]
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Nolan Kurtz",
     "section": "",
-    "text": "I’m a recent UVM graduate getting started on a career in Horticulture, Plant Biology, and IPM\n\n\n\n\n\n\nNoteTitle:\n\n\n\ncontent",
+    "text": "Hi! I’m a recent UVM graduate getting started on a career in Horticulture, Plant Biology, and IPM. I put together this site to share info about myself, projects I’ve done, and what I’m up to!\n\n\n\n\n\n\nNoteTitle:\n\n\n\ncontent",
     "crumbs": [
       "Home"
-    ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Point of Contact #1Point of Contact #2",
-    "crumbs": [
-      "Home",
-      "About"
     ]
   },
   {
@@ -27,18 +27,8 @@
     "section": "",
     "text": "Point of Contact #1Point of Contact #2",
     "crumbs": [
-      "My Info"
-    ]
-  },
-  {
-    "objectID": "Plants.html",
-    "href": "Plants.html",
-    "title": "My Plants",
-    "section": "",
-    "text": "Upper Shelf\n\n\n\n\n\nUpper Shelf\n\n\n\n\n\nUpper Shelf",
-    "crumbs": [
-      "Home",
-      "My Plants"
+      "My Info",
+      "About Me"
     ]
   },
   {
@@ -46,10 +36,131 @@
     "href": "My_Plants.html",
     "title": "Plants",
     "section": "",
-    "text": "Here are some of the plants I grow!\n\n\n\n\n \n\n\n\n\nMain Shelf\n\n\n\n\n\nSucculents\n\n\n\n\n\nCebu Blue Pothos on a moss pole",
+    "text": "Here are some of the plants I grow!\n\n\n\n\nMain Shelf\n\n\n\n\n\n\n\nSucculents\n\n\n\n\n\n\n\nCebu Blue pothos on a moss pole",
     "crumbs": [
       "Horticulture",
       "My Plants"
+    ]
+  },
+  {
+    "objectID": "CV.html",
+    "href": "CV.html",
+    "title": "",
+    "section": "",
+    "text": "Nolan Kurtz\nnkurtz011@gmail.com\nLinkedin.com/in/nolan-kurtz",
+    "crumbs": [
+      "My Info",
+      "CV"
+    ]
+  },
+  {
+    "objectID": "CV.html#personal-summary",
+    "href": "CV.html#personal-summary",
+    "title": "",
+    "section": "Personal Summary",
+    "text": "Personal Summary\n\nUVM graduate with hands-on research experience in entomology, soil ecology, and agricultural systems. Skilled in molecular, horticultural, and laboratory techniques, with a strong foundation in data management and team collaboration. Draws on curiosity and careful observation to troubleshoot experiments and refine protocols for consistent results.",
+    "crumbs": [
+      "My Info",
+      "CV"
+    ]
+  },
+  {
+    "objectID": "CV.html#education",
+    "href": "CV.html#education",
+    "title": "",
+    "section": "Education",
+    "text": "Education\n\nUniversity of Vermont, Burlington VT\nB. Sc. Agroecology, minor in Plant Biology\n8/2021 - 5/2025",
+    "crumbs": [
+      "My Info",
+      "CV"
+    ]
+  },
+  {
+    "objectID": "CV.html#research-and-professional-experience",
+    "href": "CV.html#research-and-professional-experience",
+    "title": "",
+    "section": "Research and Professional Experience",
+    "text": "Research and Professional Experience\n\nLead Field & Lab Research Technician\n\nSEMII Biocontrol Lab, University of Vermont\n5/2025–Present\n\nContributed to federally funded projects on invasive earthworms and soil health, and biological control of potato pests, assisting with experimental design, field setup, and data collection.\n\nCreated and maintained detailed documentation and research protocols in Protocols.io to support reproducibility and team training.\n\nSupervised and mentored undergraduate researchers in field and laboratory techniques.\n\nPerformed molecular and microbiological analyses, including DNA extraction, PCR, gel electrophoresis, quantification, and fungal culturing.\n\nCoordinated sampling and data collection with farmers and collaborators across multiple research sites.\n\nPresented project findings at outreach events.\n\nMaintained organized records to ensure data integrity and compliance with safety standards.",
+    "crumbs": [
+      "My Info",
+      "CV"
+    ]
+  },
+  {
+    "objectID": "CV.html#research-and-professional-experience-52025---present",
+    "href": "CV.html#research-and-professional-experience-52025---present",
+    "title": "Nolan Kurtz",
+    "section": "Research and Professional Experience #### 5/2025 - present\n",
+    "text": "Research and Professional Experience #### 5/2025 - present\n\n\nLead Field & Lab Research Technician\n\nSEMII Biocontrol Lab, University of Vermont\n\n\nContributed to federally funded projects on invasive earthworms and soil health, and biological control of potato pests, assisting with experimental design, field setup, and data collection.\n\nCreated and maintained detailed documentation and research protocols in Protocols.io to support reproducibility and team training.\n\nSupervised and mentored undergraduate researchers in field and laboratory techniques.\n\nPerformed molecular and microbiological analyses, including DNA extraction, PCR, gel electrophoresis, quantification, and fungal culturing.\n\nCoordinated sampling and data collection with farmers and collaborators across multiple research sites.\n\nPresented project findings at outreach events.\n\nMaintained organized records to ensure data integrity and compliance with safety standards.\n\n\n\n\n\nProduction Intern\n\nUVM Greenhouse Facilities\n\n\nWorked in a team to produce annuals and houseplants, including watering, seeding, propagation, transplanting, and sales.\n\nFollowed IPM protocols through greenhouse sanitation, pest scouting, biological control application, and order-of-entry protocols.\n\nSupervised undergraduate technicians in pest scouting and greenhouse maintenance activities.\n\nProvided customer service and conducted transactions during sales. Provided information and brief impromptu tours to greenhouse visitors. 1/2025 - 5/2025\n\n\n\n\n\nTeaching Assistant - Commercial Plant Propagation\n\n\nUVM Dept. of Agriculture, Landscapes, and Environment\n\n\nAssisted the professor in weekly laboratory periods by preparing materials, directing and aiding undergraduate students, cleaning facilities, and maintaining student-propagated plants\n\nAdministered and graded weekly quizzes. Coordinated with absent students to complete lab activities and quizzes outside of class hours.\n\nMet weekly with the professor and other TAs to plan lab activities and address student concerns. Proposed and enacted changes to grading schemes to address student understanding and promote fairness.\n\nDirected and supervised lab periods when the professor could not attend. 1/2025 - 5/2025\n\n\n\n\n\nResearch and Operations Intern\n\n\nUVM Greenhouses\n\n\nMaintained research plants through regular watering, fertilizing, and pruning.\n\nFollowed IPM protocols through greenhouse sanitation, pest scouting, biological control application, and order-of-entry protocols.\n\nUsed pH and EC meters to mix and monitor nutrient solutions.\n\nMaintained a vertical hydroponic system. Communicated with visitors regarding the benefits of hydroponics and details about the current installation. Responded to various system failures to prevent crop loss. 8/2024 - 12/2024\n\n\n\n\n\nTree and Shrub Crew\n\n\nHorsford Gardens and Nursery\n\n\nWorked on a team to produce and manage trees and shrubs in the nursery through regular hand watering, transplanting, and pest scouting.\n\nCommunicated with various teams to ensure plant health and customer satisfaction.\n\nOperated tractors and skid steers to move plants safely and efficiently.\n\nCommunicated with customers to find varieties or recommend alternatives. 6/2023 - 7/2024\nGroup Leader\nChampion Soccer School\nCoached and oversaw groups of 1st-8th graders in a soccer-focused summer camp.\n\nPlanned drills and activities. Directed junior counselors in set-up, clean-up, and assisting campers.\n\nCommunicated with parents to ensure every camper had a positive experience. 5/2022 - 8/2022\nCustomer Service Associate\nWayland Home and Design - Ace Hardware\nUtilized point-of-sale systems to conduct transactions. Helped customers troubleshoot project solutions and recommended products.\n\nRestocked and organized displays. Cleaned the facility. 2/2018 - 6/2021\nTechnical and Research Skills\n\nHorticulture Laboratory Research Tools and Communication\n* Precision irrigation\n* Propagation\n* Identification of plant and insect species\n* IPM and biological control application\n* Greenhouse sanitation and maintenance of controlled environments\n* Operation and basic maintenance of nursery equipment and machinery\n* Aseptic culture of plant and fungal cells for research applications (media prep, aseptic technique)\n* DNA extraction\n* Micropipette use\n* Microscopy * Data organization and analysis (e.g., Microsoft Excel & Office Suite)\n● Workflow documentation (e.g., Protocols.io, CSV-based experiment logs)\n● Diagram and figure preparation\n(e.g., Google Drawings)\n● Scientific and technical writing\nAwards and Honors\nOutstanding Undergraduate Teaching Assistant Award\n● Teaching Assistant for Commercial Plant Propagation\n● UVM Dept. of Agriculture, Landscapes, and Environment\nDean’s List - Four Semesters\n● UVM College of Agriculture and Life Sciences 5/2025\nReferences\nDr. Maryam Nouri-Aiin\nAssociate Professor, Department of Agriculture, Landscapes, and Environment\nPrincipal Investigator, SEMII Biocontrol Lab and Mentor\nMaryam.Nouri-Aiin@uvm.edu\nDr. Mark Starrett\nAssociate Professor, Department of Agriculture, Landscapes, and Environment\nFormer Professor and Teaching Assistant Supervisor\nMark.Starrett@uvm.edu\nDerek Allen\nDirector, UVM Greenhouses\nFormer Professor, Internship Supervisor, and Mentor\nDerek.Allen@uvm.edu",
+    "crumbs": [
+      "My Info",
+      "CV"
+    ]
+  },
+  {
+    "objectID": "CV.html#lead-field-lab-research-technician",
+    "href": "CV.html#lead-field-lab-research-technician",
+    "title": "Nolan Kurtz",
+    "section": "Lead Field & Lab Research Technician",
+    "text": "Lead Field & Lab Research Technician\nPlant Biology Lab\n2022–Present",
+    "crumbs": [
+      "My Info",
+      "CV"
+    ]
+  },
+  {
+    "objectID": "CV.html#awards-and-honors",
+    "href": "CV.html#awards-and-honors",
+    "title": "",
+    "section": "Awards and Honors",
+    "text": "Awards and Honors\n\nOutstanding Undergraduate Teaching Assistant Award\nTeaching Assistant for Commercial Plant Propagation\nUVM Dept. of Agriculture, Landscapes, and Environment\n\n\n\nDean’s List - Four Semesters\nUVM College of Agriculture and Life Sciences 5/2025",
+    "crumbs": [
+      "My Info",
+      "CV"
+    ]
+  },
+  {
+    "objectID": "CV.html#references",
+    "href": "CV.html#references",
+    "title": "",
+    "section": "References",
+    "text": "References\n\nDr. Maryam Nouri-Aiin\nAssociate Professor, Department of Agriculture, Landscapes, and Environment\nPrincipal Investigator, SEMII Biocontrol Lab and Mentor\nMaryam.Nouri-Aiin@uvm.edu\n\n\n\nDr. Mark Starrett\nAssociate Professor, Department of Agriculture, Landscapes, and Environment\nFormer Professor and Teaching Assistant Supervisor\nMark.Starrett@uvm.edu\n\n\n\nDerek Allen\nDirector, UVM Greenhouses\nFormer Professor, Internship Supervisor, and Mentor\nDerek.Allen@uvm.edu",
+    "crumbs": [
+      "My Info",
+      "CV"
+    ]
+  },
+  {
+    "objectID": "CV.html#present",
+    "href": "CV.html#present",
+    "title": "",
+    "section": "5/2025–Present",
+    "text": "5/2025–Present\n\nContributed to federally funded projects on invasive earthworms and soil health, and biological control of potato pests, assisting with experimental design, field setup, and data collection.\n\nCreated and maintained detailed documentation and research protocols in Protocols.io to support reproducibility and team training.\n\nSupervised and mentored undergraduate researchers in field and laboratory techniques.\n\nPerformed molecular and microbiological analyses, including DNA extraction, PCR, gel electrophoresis, quantification, and fungal culturing.\n\nCoordinated sampling and data collection with farmers and collaborators across multiple research sites.\n\nPresented project findings at outreach events.\n\nMaintained organized records to ensure data integrity and compliance with safety standards.",
+    "crumbs": [
+      "My Info",
+      "CV"
+    ]
+  },
+  {
+    "objectID": "CV.html#section",
+    "href": "CV.html#section",
+    "title": "Education",
+    "section": "",
+    "text": "Production Intern\n\nUVM Greenhouse Facilities\n1/2025 - 5/2025\n\nWorked in a team to produce annuals and houseplants, including watering, seeding, propagation, transplanting, and sales.\n\nFollowed IPM protocols through greenhouse sanitation, pest scouting, biological control application, and order-of-entry protocols.\n\nSupervised undergraduate technicians in pest scouting and greenhouse maintenance activities.\n\nProvided customer service and conducted transactions during sales. Provided information and brief impromptu tours to greenhouse visitors.\n\n\n\n\nTeaching Assistant - Commercial Plant Propagation\n\nUVM Dept. of Agriculture, Landscapes, and Environment\n1/2025 - 5/2025\n\nAssisted the professor in weekly laboratory periods by preparing materials, directing and aiding undergraduate students, cleaning facilities, and maintaining student-propagated plants\n\nAdministered and graded weekly quizzes. Coordinated with absent students to complete lab activities and quizzes outside of class hours.\n\nMet weekly with the professor and other TAs to plan lab activities and address student concerns. Proposed and enacted changes to grading schemes to address student understanding and promote fairness.\n\nDirected and supervised lab periods when the professor could not attend.\n\n\n\n\nResearch and Operations Intern\n\nUVM Greenhouse Facilities\n8/2024 - 12/2024\n\n\nMaintained research plants through regular watering, fertilizing, and pruning.\n\nFollowed IPM protocols through greenhouse sanitation, pest scouting, biological control application, and order-of-entry protocols.\n\nUsed pH and EC meters to mix and monitor nutrient solutions.\n\nMaintained a vertical hydroponic system. Communicated with visitors regarding the benefits of hydroponics and details about the current installation. Responded to various system failures to prevent crop loss.\n\n\n\n\nTree and Shrub Crew\n\nHorsford Gardens and Nursery\n6/2023 - 7/2024\n\nWorked on a team to produce and manage trees and shrubs in the nursery through regular hand watering, transplanting, and pest scouting.\n\nCommunicated with various teams to ensure plant health and customer satisfaction.\n\nOperated tractors and skid steers to move plants safely and efficiently.\n\nCommunicated with customers to find varieties or recommend alternatives.\n\n\n\n\nGroup Leader\n\nChampion Soccer School\n5/2022 - 8/2022\n\nCoached and oversaw groups of 1st-8th graders in a soccer-focused summer camp.\n\nPlanned drills and activities. Directed junior counselors in set-up, clean-up, and assisting campers.\n\nCommunicated with parents to ensure every camper had a positive experience.\n\n\n\n\nCustomer Service Associate\n\nWayland Home and Design - Ace Hardware\n2/2018 - 6/2021\n\nUtilized point-of-sale systems to conduct transactions. Helped customers troubleshoot project solutions and recommended products.\n\nRestocked and organized displays. Cleaned the facility. Technical and Research Skills\n\nHorticulture Laboratory Research Tools and Communication\n* Precision irrigation\n* Propagation\n* Identification of plant and insect species\n* IPM and biological control application\n* Greenhouse sanitation and maintenance of controlled environments\n* Operation and basic maintenance of nursery equipment and machinery\n* Aseptic culture of plant and fungal cells for research applications (media prep, aseptic technique)\n* DNA extraction\n* Micropipette use\n* Microscopy * Data organization and analysis (e.g., Microsoft Excel & Office Suite)\n* Workflow documentation (e.g., Protocols.io, CSV-based experiment logs)\n* Diagram and figure preparation\n(e.g., Google Drawings)\n* Scientific and technical writing",
+    "crumbs": [
+      "My Info",
+      "CV"
+    ]
+  },
+  {
+    "objectID": "CV.html#technical-and-research-skills",
+    "href": "CV.html#technical-and-research-skills",
+    "title": "",
+    "section": "Technical and Research Skills",
+    "text": "Technical and Research Skills\nHorticulture Laboratory Research Tools and Communication\n* Precision irrigation\n* Propagation\n* Identification of plant and insect species\n* IPM and biological control application\n* Greenhouse sanitation and maintenance of controlled environments\n* Operation and basic maintenance of nursery equipment and machinery\n* Aseptic culture of plant and fungal cells for research applications (media prep, aseptic technique)\n* DNA extraction\n* Micropipette use\n* Microscopy * Data organization and analysis (e.g., Microsoft Excel & Office Suite)\n* Workflow documentation (e.g., Protocols.io, CSV-based experiment logs)\n* Diagram and figure preparation\n(e.g., Google Drawings)\n* Scientific and technical writing",
+    "crumbs": [
+      "My Info",
+      "CV"
     ]
   }
 ]
