@@ -4,7 +4,6 @@ project:
   render:
     - index.qmd
     - about_me.qmd
-    - Resume.qmd
     - My_Plants.qmd
     - CV.qmd
 
@@ -53,8 +52,6 @@ website:
         contents:
           - text: About Me
             href: about_me.qmd
-          - text: Resume
-            href: Resume.qmd
           - text: CV
             href: CV.qmd
 

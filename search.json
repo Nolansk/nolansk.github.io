@@ -77,14 +77,14 @@
     ]
   },
   {
-    "objectID": "Resume.html",
-    "href": "Resume.html",
-    "title": "Resume",
+    "objectID": "about_me.html",
+    "href": "about_me.html",
+    "title": "About Me",
     "section": "",
-    "text": "format: html: theme: flatly css: styles.css\n:::\n\nHomework 3: Due 3/06/2025\n\n\n\n\nDefine annual, perennial, biennial and monocarp plant growth lifecycles\n\n\n\n\nPlease label and describe the function of each of the major structures of the flower below\n\n\n\n\n\n\n\n\n\nWhat does it mean for a flower to be complete? Incomplete? Perfect? Imperfect?\n\n\n\n\nDefine Monoecious and Diecious\n\n\n\n\nWhat is the difference between pollination and fertilization?\n\n\n\n\nWhat are some of the pros and cons of cross pollination and self-pollination?\n\n\n\n\nWhat are some of the mechanisms which promote cross fertilization?\n\n\n\n\nSuppose you found a plant with the following pedigree: A/B//C/D, please diagram the crossing plan that led to this plant.\n\n\n\n\nWhat are 3 advantages and 3 disadvantages of clonally propagated plants?\n\n\n\n\nWhat are 3 potential sources of genetic material for plant breeders?\n\n\n\n\nWhat does it mean for plants to be in the primary, secondary, or tertiary gene pools?\n\n\n\n\nWhat are 2 of the ways you may measure yield of a plant?\n\n\n\n\nWhat are some of the challenges to breeding for quality?\n\n\n\n\nWhat are 3 mechanisms of resistance/tolerance in plants?",
+    "text": "Point of Contact #1Point of Contact #2",
     "crumbs": [
       "My Info",
-      "Resume"
+      "About Me"
     ]
   },
   {
@@ -98,22 +98,11 @@
     ]
   },
   {
-    "objectID": "about_me.html",
-    "href": "about_me.html",
-    "title": "About Me",
-    "section": "",
-    "text": "Point of Contact #1Point of Contact #2",
-    "crumbs": [
-      "My Info",
-      "About Me"
-    ]
-  },
-  {
     "objectID": "My_Plants.html",
     "href": "My_Plants.html",
     "title": "Plants",
     "section": "",
-    "text": "Here are some of the plants I grow!\n\n\n\n\nMain Shelf\n\n\n\n\n\n\n\nSucculents\n\n\n\n\n\n\n\nCebu Blue pothos on a moss pole",
+    "text": "Here are some of the plants I grow!\n\n\n\n\nMain Shelf\n\n\n\n\n\nSucculents\n\n\n\n\n\nCebu Blue pothos on a moss pole",
     "crumbs": [
       "Horticulture",
       "My Plants"
